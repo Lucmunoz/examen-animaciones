@@ -26,8 +26,8 @@ body{
     color: white;
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;  
+    justify-content: center;
 }
 
 .menu-items a{
@@ -59,7 +59,6 @@ body{
 }
 
 ul {
-    padding: 10px;
     list-style: none;
     color: white;
     display: flex;
@@ -218,6 +217,13 @@ ul {
     border: 1px solid black;
 }
 
+.filtros-dropdown{
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(180, 180, 180, 0.178);
+}
+
 
 @media (min-width: 576px)
 {
@@ -244,8 +250,7 @@ ul {
     }
 
     .menu{
-        flex-direction: column;
-        
+        justify-content:flex-start;
     }
 
     .menu-header{
@@ -266,6 +271,7 @@ ul {
 
     .menu-content{
         display:flex;
+        justify-content: center;
     }
 
     .footer p{
@@ -277,5 +283,5 @@ ul {
         padding:8px;
     }
 
-
 }
+
