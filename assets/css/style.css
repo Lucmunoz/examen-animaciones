@@ -151,6 +151,7 @@ transform: scale(1.08);
     justify-content: center;
 }
 .paginacion li{
+    padding: 6px;
     border: 1px solid rgba(155, 155, 155, 0.205);  
     background-color:white;
     transition: background-color 0.3s;
@@ -335,6 +336,7 @@ transform: scale(1.08);
         row-gap: 6px;
         list-style: none;
     }
+
 
     .menu-items h3{
         padding-top: 6px;
